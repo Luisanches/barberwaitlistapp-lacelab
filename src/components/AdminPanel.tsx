@@ -56,7 +56,7 @@ export function AdminPanel({ queue, onRemoveFromQueue }: AdminPanelProps) {
   return (
     <div className="w-full max-w-md">
       <div className="flex items-center justify-between mb-4">
-        <h2 className="text-xl font-semibold text-amber-900">Admin Panel</h2>
+        <h2 className="text-xl font-semibold text-amber-900">Painel de Admin</h2>
         <button
           onClick={() => setIsAuthenticated(false)}
           className="text-sm text-amber-600 hover:text-amber-700"
